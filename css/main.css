@@ -1,5 +1,12 @@
 body {
-  font-family: 'Raleway';
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.main-nav{
+  height: 60px;
 }
 
 .nav-left {
@@ -8,18 +15,48 @@ body {
   padding-left: 35px;
 }
 
+.nav-left a {
+  text-decoration: none;
+  padding: 16px 0 16px 0;
+  display: inline-block;
+  color: white;
+}
+
 .nav-right {
   float: right;
 }
 
+.nav-right a {
+  color: white;
+}
+
+.nav-right li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-right li a{
+  text-decoration: none;
+  margin-right: 20px;
+}
+
 h1 {
-  font-size: 6rem;
+  font-size: 3rem;
   font-weight: 300;
+  padding: 0;
+  margin: 0;
+  color: white;
+  
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   font-weight: 300;
+ 
+}
+
+h2, h3, h4 {
+  color: white;
 }
 
 .text-center {
@@ -31,5 +68,9 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 70%;
+  height: 50vh;
+}
+
+p {
+  color: white;
 }
